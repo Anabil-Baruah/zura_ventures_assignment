@@ -20,8 +20,6 @@ const Body = ({ projects }) => {
         console.log(projectId)
         navigate(`/details/${projectId}`)
     }
-    console.log(projects, "body")
-
     return (
         <>
             {isModalOpen && (<Create_project
