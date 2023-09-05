@@ -63,8 +63,8 @@ const Body = ({ projects }) => {
                                 <div className="project-logo blue">{initials}</div>
                                 <div className="title">
                                     <span className="heading">{project.projectName}</span>
-                                    <span className="episodes">4 episodes</span>
-                                    <span className="last-edit">Last edited 4 days ago</span>
+                                    <span className="episodes">{project.uploads.length} episodes</span>
+                                    <span className="last-edit">Last edited 1 day ago</span>
                                 </div>
                             </div>
                         );

@@ -11,7 +11,7 @@ const auth = async (req, res, next) => {
         const verifyUser = jwt.verify(token, process.env.ACCESS_TOKEN);
 
         const user = await register.findOne({ _id: verifyUser._id });
-        console.log(user, "user")
+        // console.log(user, "user")
 
 
         if (verifyUser == null)
