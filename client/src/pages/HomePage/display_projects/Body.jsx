@@ -4,7 +4,6 @@ import './body.scss'
 import Create_project from '../../../components/modals/Create_project'
 import plus_logo from '../../../assets/plus_logo.svg'
 
-
 const Body = ({ projects }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const navigate = useNavigate();
