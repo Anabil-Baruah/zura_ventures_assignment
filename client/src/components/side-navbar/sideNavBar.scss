@@ -1,0 +1,47 @@
+.nav-container {
+    // position: fixed;
+    left: 0;
+    margin: 10px;
+    height: 100vh;
+    margin: 0px;
+    width: 15rem;
+    background: #F3E8FF;
+    // color: var(--text-primary);
+
+    .logo-container {
+        // background-color: var(--bgPrimary);
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        width: 100%;
+        gap: 0.4rem;
+
+        .logo {
+            color: #7E22CE;
+            font-family: Plus Jakarta Sans, sans-serif;
+            font-size: 27.743px;
+            font-style: normal;
+            font-weight: 850;
+            line-height: normal;
+            margin-top: 0.5rem;
+        }
+    }
+
+    .nav-items {
+        .ant-menu  {
+            background-color: #F3E8FF;
+            ul{
+                li{
+                    border-radius: 2rem;
+                     &.ant-menu-item-selected{
+                        background-color: #7E22CE;
+                        color: #F3E8FF;
+                     }
+                     svg{
+                        color: #7E22CE;
+                     }
+                }
+            }
+        }
+    }
+}

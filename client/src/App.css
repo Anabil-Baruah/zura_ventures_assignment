@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-body {
+  display: flex;
+  height: 100vh;
+  /* position: relative; */
+}
+
+.main-content {
+  width: 100%;
+  margin-left: 15rem;
+  /* position: absolute; */
+}
+
+.nav-container {
+  position: fixed;
+}
+
+h1 {
+  color: #7E22CE;
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+h3{
+  color: #7E22CE;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}

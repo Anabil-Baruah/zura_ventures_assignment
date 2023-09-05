@@ -1,0 +1,28 @@
+@import '../../styles/variables.scss';
+
+.upload-cards {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 90%;
+    .card {
+        display: flex;
+        margin-top: 2rem;
+        @extend .card;
+        width: 13rem;
+        padding: 1rem;
+        align-items: center;
+
+        .text {
+            color: #3C3C3C;
+            font-family: Roboto, sans-serif;
+            font-size: 15.167px;
+            font-style: normal;
+            font-weight: 700;
+            margin-left: 0.5rem;
+        }
+    }:hover{
+        cursor: pointer;
+    }
+}

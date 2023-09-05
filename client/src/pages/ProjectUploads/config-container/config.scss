@@ -1,0 +1,26 @@
+.config-container {
+    width: 90%;
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        gap: 2rem;
+        border-bottom: 1px solid #DADADA;
+        margin-bottom: 2rem;
+
+        .theme {
+            color: #7E22CE;
+            font-family: Roboto, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+             &.active{
+                border-bottom: 5px solid #7E22CE;
+             }
+        }:hover{
+            cursor: pointer;
+        }
+    }
+    
+       
+    
+}

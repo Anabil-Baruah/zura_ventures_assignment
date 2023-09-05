@@ -1,0 +1,129 @@
+.dispaly_projects {
+    width: 70vw;
+    margin: 0 auto;
+
+    .header-content {
+        display: flex;
+
+        .header {
+            color: #7E22CE;
+            font-family: Roboto, sans-serif;
+            font-size: 1.4rem;
+            font-style: normal;
+            font-weight: 700;
+        }
+
+        .right-btn {
+            margin-left: auto;
+            margin-right: -5rem;
+
+            .btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.5rem;
+                border-radius: 4.89px;
+                background-color: #211935;
+                padding: 0.2rem 1rem 0.2rem 1rem;
+                margin: 1rem 0 1rem 0;
+
+                .icon {
+                    fill: #F8F8F8;
+
+                    img {
+                        width: 1.5rem;
+
+                    }
+                }
+
+                .text {
+                    color: #F8F8F8;
+                    font-family: Roboto, sans-serif;
+                    font-size: 12.28px;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+
+            :hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .projects {
+        margin-right: -5rem;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2rem 0 2rem 0;
+        align-items: center;
+        gap: 3rem;
+
+        .project {
+            display: flex;
+            border-radius: 12.17px;
+            border: 1.19px solid #999;
+            background: #FFF;
+            height: 100%;
+            width: 18rem;
+            box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.06), 1.18953px 2.37906px 5.94764px 0px rgba(0, 0, 0, 0.06), 4.75811px 9.51622px 10.70575px 0px rgba(0, 0, 0, 0.05), 10.70575px 21.41151px 14.27434px 0px rgba(0, 0, 0, 0.03), 19.03245px 38.0649px 16.65339px 0px rgba(0, 0, 0, 0.01), 29.7382px 58.28688px 19.03245px 0px rgba(0, 0, 0, 0.00);
+
+            .project-logo {
+                display: flex;
+                align-items: center;
+                margin: 0.5rem;
+                width: 4rem;
+                height: 4rem;
+                border-radius: 12.17px;
+                background: #7E22CE;
+                padding: 1rem;
+                font-size: 3rem;
+                color: #FFF;
+                font-family: Roboto, sans-serif;
+                font-weight: 700;
+
+                &.purple{
+                    background-color: #F8A01D;
+                }
+                &.blue{
+                    background-color: #6366F1;
+                }
+            }
+
+            .title {
+                display: flex;
+                flex-direction: column;
+                padding: 1rem;
+
+
+                .heading {
+                    color: #7E22CE;
+                    font-family: Roboto, sans-serif;
+                    font-size: 17.31px;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+
+                .episodes {
+                    color: #3C3C3C;
+                    font-family: Roboto, sans-serif;
+                    font-size: 10.819px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                .last-edit {
+                    color: #969696;
+                    font-family: Roboto, sans-serif;
+                    font-size: 10.819px;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-top: auto;
+                }
+            }
+        }:hover{
+            cursor: pointer;
+        }
+    }
+}

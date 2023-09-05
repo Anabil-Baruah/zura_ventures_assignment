@@ -1,0 +1,41 @@
+.upload-file-box {
+    border-radius: 10px;
+    border: 1px dotted #999;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .text {
+        color: #49454F;
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .text-2 {
+        color: rgba(0, 0, 0, 0.40);
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .select-file-btn {
+        margin-top: 1rem;
+        border-radius: 192.5px;
+        border: 1.925px solid #7E22CE;
+        padding: 1rem;
+        color: #7E22CE;
+        text-align: center;
+        font-family: Roboto, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+    }:hover{
+        cursor: pointer;
+    }
+}
